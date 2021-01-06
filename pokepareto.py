@@ -98,7 +98,6 @@ def build_evolution_df():
 
     for i in list(ECs.names):
         logging.debug(i)
-        print(i)
         # try:
         c = pb.evolution_chain(int(i)).chain
         # except:
